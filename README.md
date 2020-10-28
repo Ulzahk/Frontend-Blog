@@ -1,6 +1,6 @@
 <h1 align="center">
-    <img alt="Blog APP" src="https://www.iconsdb.com/icons/preview/color/D0A85C/google-blog-search-xxl.png" width="100">
-  <br>Blog APP <br>
+    <img alt="Blog Web App" src="https://www.iconsdb.com/icons/preview/color/D0A85C/google-blog-search-xxl.png" width="100">
+  <br>Blog Web App<br>
 </h1>
 <p align="center"><p>
 
@@ -9,14 +9,18 @@
   [![Nodejs](https://img.shields.io/badge/-React.js-282c34?style=flat&logo=React)](https://reactjs.org/)
   [![Express](https://img.shields.io/badge/-Sass-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com//)
 </div>
-<p align="center">Blog APP Description</p>
+<p align="center">Blog Web App Description</p>
 
 <div align="center">
 
-> Demo APP: https://frontend-blog-ulzahk.ulzahk.vercel.app/
-> Demo API: https://backend-blog-ulzahk.ulzahk.vercel.app/
-
+> Demo Web App: https://frontend-blog-ulzahk.ulzahk.vercel.app/
 </div>
+<div align="center">
+
+> Demo API: https://backend-blog-ulzahk.ulzahk.vercel.app/
+</div>
+
+
 
 
 ## Table of Contents

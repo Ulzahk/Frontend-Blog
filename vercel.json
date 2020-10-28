@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "name": "frontend-blog",
+  "name": "frontend-blog-ulzahk",
   "builds": [
     { "use": "@vercel/static-build", "src": "package.json"}
   ],
