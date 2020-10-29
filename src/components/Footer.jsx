@@ -6,7 +6,7 @@ const Footer = () => {
   return (
     <footer className='footer'>
       <ul className='footer__list'>
-        <Link to='/'><li>Blog 2020</li></Link>
+        <Link className='footer__list--link' to='/'><li>Blog 2020</li></Link>
       </ul>
     </footer>
   )

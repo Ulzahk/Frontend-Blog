@@ -3,10 +3,12 @@
 body {
   margin: 0;
   padding: 0;
-  /* background: $dark-gray; */
+  background: $dark-gray;
   background-repeat: no-repeat;
   font-family: $theme-font;
-  /* color: $dark-golden; */
+  color: $dark-golden;
+  min-height: 100vh;
+  position: relative;
 }
 
 ::-webkit-scrollbar-thumb {

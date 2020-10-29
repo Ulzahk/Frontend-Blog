@@ -1,0 +1,28 @@
+@import '../Vars.scss';
+
+.footer{
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 60px;
+  background-color: $light-gray;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer__list{
+  margin: 0;
+  padding: 0;
+}
+
+.footer__list--link{
+  text-decoration: underline;
+  color: $dark-golden;
+  list-style: none;
+  font-size: 18px;
+}
+
+.footer__list--link:hover {
+  text-decoration: none;
+}
