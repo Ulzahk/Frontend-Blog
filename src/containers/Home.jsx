@@ -1,4 +1,5 @@
 import React from 'react'
+import '../assets/styles/App.scss'
 
 const Home = () => {
   return (
