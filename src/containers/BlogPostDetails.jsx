@@ -1,6 +1,6 @@
 import React from 'react'
 import '../assets/styles/components/BlopPostDetails.scss'
-import image from '../assets/static/image-posts.jpg'
+import image from '../assets/static/image-posts.png'
 import user from '../assets/static/user.png'
 import twitter from '../assets/static/twitter.png'
 import email from '../assets/static/email.png'

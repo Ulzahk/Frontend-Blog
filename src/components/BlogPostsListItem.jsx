@@ -1,7 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/styles/components/BlogPostsListItem.scss'
-import imagePost from '../assets/static/image-posts.jpg'
+import imagePost from '../assets/static/image-posts.png'
 
 const BlogPostsListsItem = () => {
   const title = 'Título'
