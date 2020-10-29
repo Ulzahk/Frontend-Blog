@@ -13,11 +13,11 @@
 
 <div align="center">
 
-> Demo Web App: https://frontend-blog-ulzahk.ulzahk.vercel.app/
+> Demo Web App: https://frontend-blog-ulzahk.vercel.app/
 </div>
 <div align="center">
 
-> Demo API: https://backend-blog-ulzahk.ulzahk.vercel.app/
+> Demo API: https://backend-blog-ulzahk.vercel.app/
 </div>
 
 

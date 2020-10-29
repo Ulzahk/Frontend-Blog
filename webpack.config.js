@@ -39,13 +39,13 @@ module.exports = {
         ]
       },
       {
-        test: /\.(png|gif|jpg)$/,
+        test: /\.(png|gif|jpg)$/i,
         use: [
           {
             loader: 'file-loader',
             options:
             {
-              name: 'assets/[hash].[exit]'
+              name: 'assets/static/[hash].[ext]'
             }
           }
         ]
