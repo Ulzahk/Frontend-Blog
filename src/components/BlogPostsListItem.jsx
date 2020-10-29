@@ -4,9 +4,9 @@ import '../assets/styles/components/BlogPostsListItem.scss'
 import imagePost from '../assets/static/image-posts.jpg'
 
 const BlogPostsListsItem = () => {
-  const title = 'Title'
+  const title = 'Título'
   const date = '29/10/2020'
-  const mainParagraph = 'Main paragraph'
+  const mainParagraph = 'Parrafo principal'
   return (
     <Link className='blopostslist__container--link' to='/blogpost'>
       <div className='blopostslist__container--item'>

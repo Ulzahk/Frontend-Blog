@@ -3,6 +3,9 @@
     margin: 0 5%;
   }
   
+  .blopostslist__container--item{
+    grid-template-columns: 1.5fr 2fr;
+  }
   .item__leftside--date{
     font-size: 12px;
   }
