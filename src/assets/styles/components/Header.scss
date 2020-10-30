@@ -48,7 +48,8 @@
 .header__nav--list a {
   text-decoration: none;
   list-style: none;
-  color: $dark-golden;
+  color: $light-gray;
+  background-color: $dark-golden;
   margin-right: 12px;
   padding: 10px;
   font-weight: bold;
@@ -58,9 +59,8 @@
 }
 
 .header__nav--list a:hover {
-  color: $light-gray;
-  border-color: light-gray;
-  background-color: $dark-golden;
+  color: $dark-golden;
+  background-color: $light-gray;
 }
 
 

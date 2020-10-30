@@ -82,14 +82,14 @@
   padding: 10px;
   font-size: 18px;
   font-weight: bold;
-  color: $dark-golden;
-  background-color: $light-gray;
+  color: $light-gray;
+  background-color: $dark-golden;
   border: 1px solid $dark-golden;
   transition: 0.3s;
 }
 
 .blogpost__button:hover {
-  color: $light-gray;
-  background-color: $dark-golden;
+  color: $dark-golden;
+  background-color: $light-gray;
   cursor: pointer;
 }
