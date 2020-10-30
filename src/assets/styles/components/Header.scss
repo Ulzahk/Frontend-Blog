@@ -12,6 +12,7 @@
 .header__link{
   text-decoration: none;
   color: $dark-golden;
+  transition: 0.3s;
 }
 
 .header__link:hover {
@@ -48,12 +49,17 @@
   text-decoration: none;
   list-style: none;
   color: $dark-golden;
-  padding: 0 12px;
+  margin-right: 12px;
+  padding: 10px;
   font-weight: bold;
+  border: 1px solid $dark-golden;
+  transition: 0.3s
 }
 
 .header__nav--list a:hover {
-  opacity: 0.7;
+  color: $light-gray;
+  border-color: light-gray;
+  background-color: $dark-golden;
 }
 
 

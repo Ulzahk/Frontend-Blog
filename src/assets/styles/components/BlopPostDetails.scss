@@ -54,7 +54,8 @@
 .blogpostdetails__image--picture{
   border: 1px solid $dark-golden;
   width: 80%;
-  height: auto;
+  max-height: 400px;
+  object-fit: cover;
 }
 
 .blogpostdetails__content{

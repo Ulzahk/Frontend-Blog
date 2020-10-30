@@ -14,8 +14,7 @@ const Header = () => {
       </Link>
       <nav className='header__nav'>
         <ul className='header__nav--list'>
-          <Link to='/log-in'><li>Iniciar Sesión</li></Link>
-          <Link to='/sign-up'><li>Crear Cuenta</li></Link>
+          <Link to='/crear-blogpost'><li>Crear Blog Post</li></Link>
         </ul>
       </nav>
     </header>
