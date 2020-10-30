@@ -6,8 +6,8 @@
 
 <div align="center">
 
-  [![Nodejs](https://img.shields.io/badge/-React.js-282c34?style=flat&logo=React)](https://reactjs.org/)
-  [![Express](https://img.shields.io/badge/-Sass-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com//)
+  [![Nodejs](https://img.shields.io/badge/-React.js 17.0-282c34?style=flat&logo=React)](https://reactjs.org/)
+  [![Express](https://img.shields.io/badge/-Sass 4.14-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com//)
 </div>
 <p align="center">Blog Web App Description</p>
 
@@ -35,7 +35,7 @@
 2. Clone the project: `git clone https://github.com/<your username>/Frontend-Blog`
 3. Install dependencies: `npm install` or use `npm i`
 4. Create an .env file and use the .env.example file as a guide to fill in the environment variables.
-5. Run the project: `npm run dev`
+5. Run the project: `npm run start`
 6. Do the necessary improvements and make a commit: `git commit -am "<commit message>"` or use `git add .` and then `git commit -m "<commit message>"`
 7. Upload changes to the repository created with the fork: `git push origin <branch name>`
 8. Create a pull request to the original project.
