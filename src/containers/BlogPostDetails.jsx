@@ -1,6 +1,7 @@
 import React from 'react'
-import '../assets/styles/components/BlopPostDetails.scss'
 import { useFetchBlogPostDetails } from '../hooks/useFetchBlogPostDetails'
+import '../assets/styles/Media.scss'
+import '../assets/styles/components/BlopPostDetails.scss'
 
 const BlogPostDetails = () => {
   const data = useFetchBlogPostDetails()

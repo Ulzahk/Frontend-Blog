@@ -18,7 +18,7 @@ export const useFetchBlogPostDetails = () => {
         setState(blogpost_data)
       })
       .catch((err) => {
-        console.log(err)
+        console.error(`${err.name} : ${err.message}`)
       })
   }, [])
 
