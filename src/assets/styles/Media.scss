@@ -1,3 +1,16 @@
+@media only screen and ( max-width: 401px) {
+  .header__logo--title{
+    font-size: 28px;
+  }
+  
+  .header__logo--icon {
+    width: 30px;
+  }
+  .header__nav--list a {
+    font-size: 12px;
+  }
+}
+
 @media only screen and ( max-width: 767px) {
   .blogpostslist{
     margin: 0 5%;
