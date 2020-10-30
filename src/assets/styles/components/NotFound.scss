@@ -1,0 +1,39 @@
+@import '../Vars.scss';
+
+.error404 {
+  width: 100%;
+  min-height: 71.5vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  color: $dark-golden;
+}
+.error404__title {
+  font-size: 64px;
+}
+.error404__subtitle {
+  font-size: 20px;
+}
+
+.animated {
+  animation-duration: 2.5s;
+  animation-fill-mode: both;
+  animation-iteration-count: infinite;
+}
+
+@keyframes pulse {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.1);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+.pulse {
+  animation-name: pulse;
+  animation-duration: 1s;
+}
