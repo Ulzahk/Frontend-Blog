@@ -15,6 +15,23 @@
   margin-bottom: 12px;
 }
 
+.blogpostdetails__welcome--button{
+  color: $dark-golden;
+  background-color: $dark-gray;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid $dark-golden;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  margin-top: 10px;
+}
+
+.blogpostdetails__welcome--button:hover{
+  color: $dark-gray;
+  background-color: $dark-golden;
+}
+
 .blogpostdetails__welcome--header{
   display: flex;
   justify-content: space-between;
@@ -59,7 +76,7 @@
 .blogpostdetails__image--picture{
   border: 1px solid $dark-golden;
   width: 80%;
-  max-height: 400px;
+  max-height: auto;
   object-fit: cover;
 }
 

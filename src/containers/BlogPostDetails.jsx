@@ -1,14 +1,29 @@
+
 import React from 'react'
 import { useFetchBlogPostDetails } from '../hooks/useFetchBlogPostDetails'
+import axios from 'axios'
 import '../assets/styles/Media.scss'
 import '../assets/styles/components/BlopPostDetails.scss'
 
-const BlogPostDetails = () => {
+const BlogPostDetails = (props) => {
   const data = useFetchBlogPostDetails()
   const blogPostData = data[0]
+  const handleDelete = (blogpostId) => {
+    axios({
+      url: `https://backend-blog-ulzahk.vercel.app/blogposts/${blogpostId}`,
+      method: 'DELETE'
+    })
+      .then((response) => {
+        props.history.push('/')
+      })
+      .catch((err) => {
+        console.error(`${err.name} : ${err.message}`)
+      })
+  }
   return (
     <section className='blogpostdetails'>
       <div className='blogpostdetails__welcome'>
+        <button className='blogpostdetails__welcome--button' onClick={async () => await handleDelete(blogPostData._id)}>Borrar Post</button>
         <div className='blogpostdetails__welcome--header'>
           <h3 className='header__title'>{blogPostData.title}</h3>
           <p className='header__date'>{blogPostData.published_date}</p>
