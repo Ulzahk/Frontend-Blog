@@ -11,7 +11,7 @@ const App = () => (
     <Layout>
       <Switch>
         <Route exact path='/' component={Home} />
-        <Route exact path='/blogpost' component={BlogsPostDetails} />
+        <Route exact path='/blogpost/:meta_title' component={BlogsPostDetails} />
         <Route exact path='/crear-blogpost' component={CreateBlogPost} />
         <Route component={NotFound} />
       </Switch>

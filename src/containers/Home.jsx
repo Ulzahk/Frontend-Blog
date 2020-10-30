@@ -8,8 +8,6 @@ const Home = () => {
   return (
     <BlogPostsList>
       <BlogPostsListItem />
-      <BlogPostsListItem />
-      <BlogPostsListItem />
     </BlogPostsList>
   )
 }
