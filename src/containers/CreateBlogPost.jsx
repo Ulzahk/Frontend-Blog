@@ -43,7 +43,7 @@ const CreateBlogPost = (props) => {
             name='title'
             className='blogpost__input'
             type='text'
-            placeholder='5 Cosas que Debes Saber de los Gorillas'
+            placeholder='Ejemplo: 5 Cosas que Debes Saber de los Gorillas'
             autoComplete='off'
             required
             ref={register}
@@ -65,7 +65,7 @@ const CreateBlogPost = (props) => {
             name='cover'
             className='blogpost__input'
             type='text'
-            placeholder='https://www.gorilaswiki.com/Imagenes/gorila-hd.jpg'
+            placeholder='Ejemplo: https://www.gorilaswiki.com/Imagenes/gorila-hd.jpg'
             autoComplete='off'
             required
             ref={register}

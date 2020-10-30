@@ -17,7 +17,7 @@ const BlogPostsListsItem = () => {
         setState(response.data.results)
       })
       .catch((err) => {
-        console.log(err)
+        console.error(`${err.name}: ${err.message}`)
       })
   }, [])
 
