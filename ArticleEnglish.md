@@ -63,12 +63,20 @@
 
 If you want to review the application documentation, here I share the repositories:
 
-<ul>
-  <li>Repositorio App: <a target='_blank'>https://github.com/Ulzahk/Frontend-Blog</a></li>
-  <li>Repositorio API: <a target='_blank'>https://github.com/Ulzahk/Backend-Blog</a></li>
-</ul>
+- Repository App: [https://github.com/Ulzahk/Frontend-Blog](https://github.com/Ulzahk/Frontend-Blog)
+- Repository API: [https://github.com/Ulzahk/Backend-Blog](https://github.com/Ulzahk/Backend-Blog)
 
 <h3>References</h3>
+
+- [https://nodejs.org](https://nodejs.org)
+- [https://expressjs.com]https://expressjs.com)
+- [https://www.mongodb.com](https://www.mongodb.com)
+- [https://reactjs.org](https://reactjs.org)
+- [https://sass-lang.com](https://sass-lang.com)
+- [https://webpack.js.org](https://webpack.js.org)
+
+
+
 <ul>
   <li><a target='_blank'>https://nodejs.org</a></li>
   <li><a target='_blank'>https://expressjs.com</a></li>
