@@ -59,11 +59,7 @@
   Now that you know about the functionality of this application I invite you to review it, try it and leave me your comments to improve it.
 </p>
 <ul>
-  <li>Demo App: 
-  
-  [https://frontend-blog-ulzahk.vercel.app](https://frontend-blog-ulzahk.vercel.app) 
-  
-  </li>
+  <li>Demo App: <a>https://frontend-blog-ulzahk.vercel.app</a></li>
 </ul>
 
 If you want to review the application documentation, here I share the repositories:
@@ -74,6 +70,7 @@ If you want to review the application documentation, here I share the repositori
 </ul>
 
 <h3>References</h3>
+
 <ul>
   <li><a target='_blank'>https://nodejs.org</a></li>
   <li><a target='_blank'>https://expressjs.com</a></li>
