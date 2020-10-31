@@ -55,12 +55,27 @@
 <p>
   This section was focused on the creation of three main views, the first view was the blog post list where we can see all the blog posts that are in the database arranged in a way that we can see the title, the main image, date and the main or introductory paragraph.
 </p>
+
+<div align="center">
+    <img alt="Article's Main Image" src='./src/assets/static/Blog-posts-list.png' width='70%'>
+</div>
+
 <p>
   The blog post details view where the content is highlighted, the other elements are better appreciated, we also have the delete button to remove the blog post if desired.
 </p>
+
+<div align="center">
+    <img alt="Article's Main Image" src='./src/assets/static/Blog-post-details.png' width='70%'>
+</div>
+
 <p>
   Finally, there is the section of creation of the blog post where by filling out the form and interact with the button will allow us to create the blog post, it should be noted that in this case the main image section will only receive links to images already uploaded on the web, this in order not to limit access to this application.
 </p>
+
+<div align="center">
+    <img alt="Article's Main Image" src='./src/assets/static/Create-blog-post.png' width='70%'>
+</div>
+
 </br>
 <p>
   Now that you know about the functionality of this application I invite you to review it, try it and leave me your comments to improve it.
