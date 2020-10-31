@@ -1,4 +1,11 @@
-<h2>Single Page Application: Basic Blog System</h2>
+
+<h2 align='center'>Single Page Application: Basic Blog System</h2>
+</br>
+<div align="center">
+    <img alt="Article's Main Image" src='https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+</div>
+</br>
+
 <h3>Introduction</h3>
 <p>
   A Single Page Application consists of a set of functions and processes that are structured in a page, the only thing that will change during its use will be the events that are handled and the visibility of its components.
@@ -69,20 +76,11 @@ If you want to review the application documentation, here I share the repositori
 <h3>References</h3>
 
 - [https://nodejs.org](https://nodejs.org)
-- [https://expressjs.com]https://expressjs.com)
+- [https://expressjs.com](https://expressjs.com)
 - [https://www.mongodb.com](https://www.mongodb.com)
 - [https://reactjs.org](https://reactjs.org)
 - [https://sass-lang.com](https://sass-lang.com)
 - [https://webpack.js.org](https://webpack.js.org)
 
 
-
-<ul>
-  <li><a target='_blank'>https://nodejs.org</a></li>
-  <li><a target='_blank'>https://expressjs.com</a></li>
-  <li><a target='_blank'>https://www.mongodb.com</a></li>
-  <li><a target='_blank'>https://reactjs.org</a></li>
-  <li><a target='_blank'>https://sass-lang.com</a></li>
-  <li><a target='_blank'>https://webpack.js.org</a></li>
-</ul>
 
