@@ -6,9 +6,9 @@
 
 <div align="center">
 
-  [![React](https://img.shields.io/badge/-React.js 17.0-282C34?style=flat&logo=React)](https://reactjs.org/)
-  [![Sass](https://img.shields.io/badge/-Sass 4.14-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com//)
-  [![Webpack](https://img.shields.io/badge/-Webpack 4.44-282C34?style=flat&logo=webpack)](https://webpack.js.org/)
+  [![React](https://img.shields.io/badge/-React.js 17.0-282C34?style=flat&logo=React)](https://reactjs.org)
+  [![Sass](https://img.shields.io/badge/-Sass 4.14-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com)
+  [![Webpack](https://img.shields.io/badge/-Webpack 4.44-282C34?style=flat&logo=webpack)](https://webpack.js.org)
 </div>
 <p align="center">Blog Web App Description</p>
 
