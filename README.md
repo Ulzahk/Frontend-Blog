@@ -6,8 +6,9 @@
 
 <div align="center">
 
-  [![Nodejs](https://img.shields.io/badge/-React.js 17.0-282c34?style=flat&logo=React)](https://reactjs.org/)
-  [![Express](https://img.shields.io/badge/-Sass 4.14-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com//)
+  [![React](https://img.shields.io/badge/-React.js 17.0-282C34?style=flat&logo=React)](https://reactjs.org/)
+  [![Sass](https://img.shields.io/badge/-Sass 4.14-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com//)
+  [![Webpack](https://img.shields.io/badge/-Webpack 4.44-282C34?style=flat&logo=webpack)](https://webpack.js.org/)
 </div>
 <p align="center">Blog Web App Description</p>
 
@@ -42,13 +43,27 @@
 
 ## Views
 
+### Blog Posts List
+<div align="center">
+    <img alt="Home" src="./src/assets/static/Blog-posts-list.png">
+</div>
+
+### Blog Posts Details
+<div align="center">
+    <img alt="Home" src="./src/assets/static/Blog-post-details.png">
+</div>
+
+### Create Blog Post
+<div align="center">
+    <img alt="Home" src="./src/assets/static/Create-blog-post.png">
+</div>
+
 ## More Information
 
 | Name                      | Link                                                                          |
 | :-------------------------| :---------------------------------------------------------------------------- |
-| Documentation             | link |
-| Backend  Repository       | https://github.com/Ulzahk/Backend-Blog                     |
-| Blog API                  | https://backend-blog-ulzahk.ulzahk.vercel.app/                                         |
+| Backend  Repository       | https://github.com/Ulzahk/Backend-Blog                                        |
+| Blog API                  | https://backend-blog-ulzahk.vercel.app/                                       |
 
 ## License
 
