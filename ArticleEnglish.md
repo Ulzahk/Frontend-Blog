@@ -2,7 +2,7 @@
 <h2 align='center'>Single Page Application: Basic Blog System</h2>
 </br>
 <div align="center">
-    <img alt="Article's Main Image" src='https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940'>
+    <img alt="Article's Main Image" src='https://images.pexels.com/photos/92904/pexels-photo-92904.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940' width='80%'>
 </div>
 </br>
 
@@ -77,7 +77,7 @@ If you want to review the application documentation, here I share the repositori
 
 - [https://nodejs.org](https://nodejs.org)
 - [https://expressjs.com](https://expressjs.com)
-- [https://www.mongodb.com](https://www.mongodb.com)
+- [https://mongodb.com](https://mongodb.com)
 - [https://reactjs.org](https://reactjs.org)
 - [https://sass-lang.com](https://sass-lang.com)
 - [https://webpack.js.org](https://webpack.js.org)
