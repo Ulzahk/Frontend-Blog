@@ -1,0 +1,124 @@
+@import '../Vars.scss';
+
+.blogpostdetails {
+  margin: 0 10%;
+  margin-top: 20px;
+  display: grid;
+  text-align: center;
+  padding-bottom: 60px;
+}
+
+.blogpostdetails__welcome{
+  text-align: left;
+  padding: 0 10px;
+  margin-bottom: 12px;
+}
+
+.blogpostdetails__welcome--button{
+  color: $dark-golden;
+  background-color: $dark-gray;
+  cursor: pointer;
+  padding: 5px;
+  border: 1px solid $dark-golden;
+  font-size: 16px;
+  font-weight: bold;
+  text-align: right;
+  outline: none;
+  transition: 0.3s;
+}
+
+.blogpostdetails__welcome--button:hover{
+  color: $dark-gray;
+  background-color: $dark-golden;
+}
+
+.blogpostdetails__welcome--header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px 0
+}
+
+.header__title{
+  margin: 0;
+  font-size: 30px;
+}
+
+.header__date{
+  font-size: 16px;
+  font-weight: bold;
+  margin: 0;
+}
+
+.blogpostdetails__welcome--category {
+  margin: 5px 0 10px 0;
+}
+
+.blogpostdetails__welcome--category label{
+  font-size: 14px;
+  font-weight: bold;
+  color: $light-gray;
+  background-color: $dark-golden;
+  margin: 0;
+  padding: 2.5px;
+  width: 50px;
+}
+
+.blogpostdetails__welcome--main{
+  font-size: 16px;
+}
+
+
+.blogpostdetails__image{
+  margin-bottom: 12px;
+}
+
+.blogpostdetails__image--picture{
+  border: 1px solid $dark-golden;
+  width: 80%;
+  max-height: auto;
+  object-fit: cover;
+}
+
+.blogpostdetails__content{
+  margin-bottom: 12px;
+  padding: 0 10px;
+  text-align: left;
+  font-size: 16px;
+}
+
+.blogpostdetails__author{
+  border: 1px solid $dark-golden;
+  margin: 0 20% 12px 20%;
+  padding: 0;
+}
+
+.blogpostdetails__author a:hover {
+  opacity: 0.5;
+}
+
+.blogpostdetails__author--picture {
+  width: 80px;
+  object-fit: cover;
+  border: 1px solid $dark-golden;
+  border-radius: 100%;
+  margin-top: 12px
+}
+
+.blogpostdetails__author--name {
+  font-weight: bold;
+}
+
+.blogpostdetails__author--twitter {
+  width: 30px;
+  margin-right: 5px;
+}
+
+.blogpostdetails__author--email {
+  width: 30px;
+  margin-left: 5px;
+}
+
+.blogpostdetails__author--description{
+  margin: 12px 10px ;
+}

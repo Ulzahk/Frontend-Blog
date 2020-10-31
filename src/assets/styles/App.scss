@@ -1,0 +1,32 @@
+@import './Vars.scss';
+
+body {
+  margin: 0;
+  padding: 0;
+  background: $dark-gray;
+  background-repeat: no-repeat;
+  font-family: $theme-font;
+  color: $dark-golden;
+  min-height: 100vh;
+  position: relative;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #ccc;
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar {
+  width: 16px;
+  background: rgba(255, 255, 255, 0.4);
+  border-radius: 4px;
+}
+
+::-webkit-scrollbar:hover {
+  background: #b3b3b3;
+  box-shadow: 0 0 2px 1px rgba(0, 0, 0, 0.2);
+}
+
+::-webkit-scrollbar:hover:active {
+  background: #999;
+}
