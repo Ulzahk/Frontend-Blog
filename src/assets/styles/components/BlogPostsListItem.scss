@@ -39,11 +39,14 @@
 
 .item__rightside {
   margin-left: 10px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .item__rightside--title{
   font-size: 30px;
-  margin: 5px 0;
+  margin: 15px 0;
 }
 
 .item__rightside--main{

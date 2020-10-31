@@ -2,14 +2,13 @@
 
 .blogpostdetails {
   margin: 0 10%;
-  margin-top: 70px;
+  margin-top: 20px;
   display: grid;
   text-align: center;
   padding-bottom: 60px;
 }
 
 .blogpostdetails__welcome{
-  border: 1px solid $dark-golden;
   text-align: left;
   padding: 0 10px;
   margin-bottom: 12px;
@@ -82,7 +81,6 @@
 }
 
 .blogpostdetails__content{
-  border: 1px solid $dark-golden;
   margin-bottom: 12px;
   padding: 0 10px;
   text-align: left;
