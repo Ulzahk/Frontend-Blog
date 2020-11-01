@@ -1,11 +1,11 @@
 /* eslint-disable camelcase */
 /* eslint-disable no-undef */
 import { useEffect, useState } from 'react'
+import { useParams } from 'react-router-dom'
 import axios from 'axios'
 
 export const useFetchBlogPostDetails = () => {
-  const meta_title = sessionStorage.getItem('meta_title')
-
+  const meta_title = useParams().meta_title
   const [state, setState] = useState([])
 
   useEffect(() => {

@@ -1,7 +1,6 @@
 @media only screen and ( max-width: 401px) {
   .item__rightside .item__rightside--title{
-    font-size: 15px;
-    margin: 25px 0
+    font-size: 18px;
   }
   
   .header__logo--title{
@@ -30,7 +29,10 @@
 
   .item__rightside--title{
     font-size: 24px;
-    margin: 20px 0
+  }
+
+  .item__rightside--category label{
+    font-size: 12px;
   }
 
   .item__rightside--main{

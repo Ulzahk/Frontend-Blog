@@ -12,7 +12,7 @@
   grid-template-columns: 1fr 2fr;
   margin-bottom: 12px;
   text-align: left;
-  max-height: 120px;
+  max-height: 160px;
   transition: 0.3s;
 }
 
@@ -33,23 +33,38 @@
 
 .item__leftside--image{
   width: 100%;
-  height: 120px;
+  height: 160px;
   object-fit: cover;
 }
 
 .item__rightside {
   margin-left: 10px;
-  white-space: nowrap;
-  overflow: hidden;
-  text-overflow: ellipsis;
+  width: 100%;
 }
 
 .item__rightside--title{
   font-size: 30px;
-  margin: 15px 0;
+  margin: 5px 0;
+  width: 50vw;
+}
+
+.item__rightside--category{
+  margin: 10px 0px;
+}
+
+.item__rightside--category label {
+  color: $dark-gray;
+  background-color: $dark-golden;
+  text-align: center;
+  padding: 2.5px;
+  font-size: 16px;
 }
 
 .item__rightside--main{
   font-size: 16px;
-  margin: 5px 0;
+  margin: 15px 0;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  width: 50vw;
 }

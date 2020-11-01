@@ -20,10 +20,9 @@ const BlogPostsListsItem = () => {
         console.error(`${err.name}: ${err.message}`)
       })
   }, [])
-
   return (
     state.map((item) => (
-      <Link className='blopostslist__container--link' onClick={() => { sessionStorage.setItem('meta_title', `${item.meta_title}`) }} to={`/blogpost/${item.meta_title}`}>
+      <Link className='blopostslist__container--link' to={`/blogpost/${item.meta_title}`}>
         <div className='blopostslist__container--item'>
           <div className='item__leftside'>
             <p className='item__leftside--date'>{item.published_date}</p>
@@ -31,6 +30,7 @@ const BlogPostsListsItem = () => {
           </div>
           <div className='item__rightside'>
             <h3 className='item__rightside--title'>{item.title}</h3>
+            <p className='item__rightside--category'><label>{item.category}</label></p>
             <p className='item__rightside--main'>{item.main_paragraph}</p>
           </div>
         </div>
