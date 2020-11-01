@@ -23,7 +23,7 @@ const BlogPostsListsItem = () => {
 
   return (
     state.map((item) => (
-      <Link className='blopostslist__container--link' onClick={() => { sessionStorage.setItem('meta_title', `${item.meta_title}`) }} to={`/blogpost/${item.meta_title}`}>
+      <Link className='blopostslist__container--link' to={`/blogpost/${item.meta_title}`}>
         <div className='blopostslist__container--item'>
           <div className='item__leftside'>
             <p className='item__leftside--date'>{item.published_date}</p>
