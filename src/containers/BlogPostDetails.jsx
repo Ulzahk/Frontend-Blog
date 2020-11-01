@@ -8,6 +8,7 @@ import '../assets/styles/components/BlopPostDetails.scss'
 const BlogPostDetails = (props) => {
   const data = useFetchBlogPostDetails()
   const blogPostData = data[0]
+  const isLoading = data[1]
   const handleDelete = (blogpostId) => {
     axios({
       url: `https://backend-blog-ulzahk.vercel.app/blogposts/${blogpostId}`,
@@ -20,6 +21,15 @@ const BlogPostDetails = (props) => {
         console.error(`${err.name} : ${err.message}`)
       })
   }
+
+  if (isLoading) {
+    return (
+      <div className='app'>
+        <p className='app__loader' />
+      </div>
+    )
+  }
+
   return (
     <section className='blogpostdetails'>
       <div className='blogpostdetails__welcome'>
