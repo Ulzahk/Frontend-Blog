@@ -6,6 +6,7 @@ import axios from 'axios'
 
 export const useFetchBlogPostDetails = () => {
   const meta_title = useParams().meta_title
+  const [isLoading, setLoading] = useState(true)
   const [state, setState] = useState([])
 
   useEffect(() => {
@@ -16,11 +17,12 @@ export const useFetchBlogPostDetails = () => {
       .then((response) => {
         const blogpost_data = response.data.result
         setState(blogpost_data)
+        setLoading(false)
       })
       .catch((err) => {
         console.error(`${err.name} : ${err.message}`)
       })
   }, [])
 
-  return [state]
+  return [state, isLoading]
 }
