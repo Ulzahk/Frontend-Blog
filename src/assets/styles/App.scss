@@ -10,21 +10,3 @@ body {
   min-height: 100vh;
   position: relative;
 }
-
-
-::-webkit-scrollbar {
-  width: 16px;
-  background: rgba(255, 255, 255, 0.4);
-}
-
-::-webkit-scrollbar-thumb {
-  background: $dark-golden;
-}
-
-::-webkit-scrollbar-thumb:hover {
-  background: #cfa75c;
-}
-
-::-webkit-scrollbar:hover:active {
-  background: #999;
-}
