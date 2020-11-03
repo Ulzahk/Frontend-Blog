@@ -15,8 +15,6 @@ const ModifyBlogPost = (props) => {
 
   const { register, handleSubmit } = useForm()
   let content = blogPostData.content
-  console.log(content)
-
   const onSubmit = (data) => {
     const newData = { ...data, content }
     axios({
