@@ -2,9 +2,11 @@
 import React from 'react'
 import { useFetchBlogPostDetails } from '../hooks/useFetchBlogPostDetails'
 import axios from 'axios'
+import DOMPurify from 'dompurify'
 import '../assets/styles/Media.scss'
 import '../assets/styles/components/BlopPostDetails.scss'
 
+const sanitazer = DOMPurify.sanitize
 const BlogPostDetails = (props) => {
   const data = useFetchBlogPostDetails()
   const blogPostData = data[0]
@@ -29,7 +31,6 @@ const BlogPostDetails = (props) => {
       </div>
     )
   }
-
   return (
     <section className='blogpostdetails'>
       <div className='blogpostdetails__welcome'>
@@ -45,9 +46,7 @@ const BlogPostDetails = (props) => {
         <img className='blogpostdetails__image--picture' src={blogPostData.cover} alt={`Imagen principal del blog post ${blogPostData.title}`} />
       </div>
       <div className='blogpostdetails__content'>
-        <p className='blogpostdetails__content--text'>
-          {blogPostData.content}
-        </p>
+        <div className='blogpostdetails__content--text' dangerouslySetInnerHTML={{ __html: sanitazer(blogPostData.content) }} />
       </div>
     </section>
   )

@@ -1,17 +1,15 @@
 @import '../Vars.scss';
 
 .createblogpost{
-  margin: 0 10%;
-  margin-top: 70px;
-  display: grid;
-  text-align: center;
+  margin: 70px 5% 0 5%;
   padding-bottom: 60px;
+  text-align: center;
 }
 
 .createblogpost__container{
   display: flex;
-  justify-content: center;
   border: 1px solid $dark-golden;
+  justify-content: center;
   width: 100%;
   margin-bottom: 60px;
 }
@@ -52,7 +50,7 @@
 
 ::placeholder{
   color: $placeholder-gray;
-  font-weight: 100;
+  font-weight: 100; 
 }
 
 .blogpost__select{
@@ -76,6 +74,11 @@
   font-family: $theme-font;
   color: $dark-golden;
 }
+
+.blogpost__ckeditor--container{
+  margin: 10px 10px;
+}
+
 
 .blogpost__button{
   margin: 10px 20%;
