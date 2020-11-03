@@ -24,6 +24,10 @@
 ## Table of Contents
 - [Steps to Collaborate](#steps-to-collaborate)
 - [Views](#views)
+  - [Blog Posts List](#blog-posts-list)
+  - [Blog Posts Details](#blog-posts-details)
+  - [Create Blog Post](#create-blog-post)
+  - [Modify Blog Post](#modify-blog-post)
 - [More Information](#more-information)
 - [License](#license)
 
@@ -42,17 +46,22 @@
 
 ### Blog Posts List
 <div align="center">
-    <img alt="Home" src="./src/assets/static/Blog-posts-list.png">
+    <img alt="Blog posts list view" src="./src/assets/static/Blog-posts-list.png">
 </div>
 
 ### Blog Posts Details
 <div align="center">
-    <img alt="Home" src="./src/assets/static/Blog-post-details.png">
+    <img alt="Blog post details view" src="./src/assets/static/Blog-post-details.png">
 </div>
 
 ### Create Blog Post
 <div align="center">
-    <img alt="Home" src="./src/assets/static/Create-blog-post.png">
+    <img alt="Create blog post view" src="./src/assets/static/Create-blog-post.png">
+</div>
+
+### Modify Blog Post
+<div align="center">
+    <img alt="Create blog post view" src="./src/assets/static/Modify-blog-post.png">
 </div>
 
 ## More Information

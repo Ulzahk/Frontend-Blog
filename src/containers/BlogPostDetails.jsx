@@ -1,5 +1,6 @@
 
 import React from 'react'
+import { Link } from 'react-router-dom'
 import { useFetchBlogPostDetails } from '../hooks/useFetchBlogPostDetails'
 import axios from 'axios'
 import DOMPurify from 'dompurify'
@@ -34,6 +35,9 @@ const BlogPostDetails = (props) => {
   return (
     <section className='blogpostdetails'>
       <div className='blogpostdetails__welcome'>
+        <Link to={`/modificar-blogpost/${blogPostData.meta_title}`}>
+          <button className='blogpostdetails__welcome--button'>Modificar Post</button>
+        </Link>
         <button className='blogpostdetails__welcome--button' onClick={async () => await handleDelete(blogPostData._id)}>Borrar Post</button>
         <div className='blogpostdetails__welcome--header'>
           <h3 className='header__title'>{blogPostData.title}</h3>
