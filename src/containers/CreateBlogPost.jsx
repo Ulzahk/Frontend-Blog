@@ -112,7 +112,24 @@ const CreateBlogPost = (props) => {
               editor={ClassicEditor}
               data=''
               config={{
-                removePlugins: ['MediaEmbed', 'ImageUpload']
+                removePlugins: ['MediaEmbed', 'ImageUpload'],
+                toolbar: [
+                  'heading',
+                  '|',
+                  'bold',
+                  'italic',
+                  '|',
+                  'numberedList',
+                  'bulletedList',
+                  'indent',
+                  'outdent',
+                  'link',
+                  '|',
+                  'insertTable',
+                  '|',
+                  'undo',
+                  'redo'
+                ]
               }}
               onReady={(editor) => {
               }}
