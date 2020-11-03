@@ -31,8 +31,6 @@ const BlogPostDetails = (props) => {
       </div>
     )
   }
-  console.log(blogPostData.content)
-
   return (
     <section className='blogpostdetails'>
       <div className='blogpostdetails__welcome'>

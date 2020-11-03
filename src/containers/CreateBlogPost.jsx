@@ -4,8 +4,8 @@ import React from 'react'
 import '../assets/styles/components/CreateBlogPost.scss'
 import axios from 'axios'
 import { useForm } from 'react-hook-form'
-import { CKEditor } from '@ckeditor/ckeditor5-react';
-import ClassicEditor from '@ckeditor/ckeditor5-build-classic';
+import { CKEditor } from '@ckeditor/ckeditor5-react'
+import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
 
 const CreateBlogPost = (props) => {
   const { register, handleSubmit } = useForm()
@@ -107,20 +107,24 @@ const CreateBlogPost = (props) => {
           <label className='blogpost__label' htmlFor='content'>
             Contenido
           </label>
-          <CKEditor
-            editor={ClassicEditor}
-            data=''
-            onReady={(editor) => {
-            }}
-            onChange={(event, editor) => {
-              content = editor.getData()
-              console.log({ content })
-            }}
-            onBlur={(event, editor) => {
-            }}
-            onFocus={(event, editor) => {
-            }}
-          />
+          <div className='.blogpost__textarea'>
+            <CKEditor
+              editor={ClassicEditor}
+              data=''
+              config={{
+                removePlugins: ['MediaEmbed', 'ImageUpload']
+              }}
+              onReady={(editor) => {
+              }}
+              onChange={(event, editor) => {
+                content = editor.getData()
+              }}
+              onBlur={(event, editor) => {
+              }}
+              onFocus={(event, editor) => {
+              }}
+            />
+          </div>
           <button className='blogpost__button' type='submit'>
             Completar Creación
           </button>
