@@ -6,6 +6,7 @@ import { Link } from 'react-router-dom'
 import '../assets/styles/components/BlogPostsListItem.scss'
 
 const BlogPostsListsItem = () => {
+  const [isLoading, setLoading] = useState(true)
   const [state, setState] = useState([])
 
   useEffect(() => {
@@ -15,11 +16,20 @@ const BlogPostsListsItem = () => {
     })
       .then((response) => {
         setState(response.data.results)
+        setLoading(false)
       })
       .catch((err) => {
         console.error(`${err.name}: ${err.message}`)
       })
   }, [])
+
+  if (isLoading) {
+    return (
+      <div className='app'>
+        <p className='app__loader' />
+      </div>
+    )
+  }
   return (
     state.map((item) => (
       <Link className='blopostslist__container--link' to={`/blogpost/${item.meta_title}`}>
