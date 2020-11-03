@@ -107,7 +107,7 @@ const CreateBlogPost = (props) => {
           <label className='blogpost__label' htmlFor='content'>
             Contenido
           </label>
-          <div className='.blogpost__textarea'>
+          <div className='blogpost__ckeditor--container'>
             <CKEditor
               editor={ClassicEditor}
               data=''
