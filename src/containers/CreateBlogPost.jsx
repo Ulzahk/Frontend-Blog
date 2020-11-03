@@ -121,7 +121,6 @@ const CreateBlogPost = (props) => {
                   '|',
                   'numberedList',
                   'bulletedList',
-                  '|',
                   'indent',
                   'outdent',
                   'link',
