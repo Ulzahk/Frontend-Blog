@@ -1,27 +1,17 @@
 /* eslint-disable no-undef */
 /* eslint-disable react/jsx-key */
-import React, { useEffect, useState } from 'react'
-import axios from 'axios'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import '../assets/styles/components/BlogPostsListItem.scss'
+import { useFetchBlogPostListItem } from '../hooks/useFetchBlogPostListItem'
 
-const BlogPostsListsItem = () => {
-  const [isLoading, setLoading] = useState(true)
-  const [state, setState] = useState([])
+const BlogPostsListsItem = (props) => {
+  const data = useFetchBlogPostListItem()
+  const state = data[0]
+  const isLoading = data[1]
 
-  useEffect(() => {
-    axios({
-      url: '/blogposts',
-      method: 'GET'
-    })
-      .then((response) => {
-        setState(response.data.results)
-        setLoading(false)
-      })
-      .catch((err) => {
-        console.error(`${err.name}: ${err.message}`)
-      })
-  }, [])
+  const newBlogPostsList = state.slice(0)
+  newBlogPostsList.reverse()
 
   if (isLoading) {
     return (
@@ -30,8 +20,9 @@ const BlogPostsListsItem = () => {
       </div>
     )
   }
+
   return (
-    state.map((item) => (
+    newBlogPostsList.map((item) => (
       <Link className='blopostslist__container--link' to={`/blogpost/${item.meta_title}`}>
         <div className='blopostslist__container--item'>
           <div className='item__leftside'>
