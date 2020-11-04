@@ -1,15 +1,23 @@
 /* eslint-disable no-undef */
 /* eslint-disable camelcase */
-import React from 'react'
+import React, { useState } from 'react'
 import '../assets/styles/components/CreateBlogPost.scss'
+import '../assets/styles/components/Modal.scss'
 import axios from 'axios'
 import { useForm } from 'react-hook-form'
 import { CKEditor } from '@ckeditor/ckeditor5-react'
 import ClassicEditor from '@ckeditor/ckeditor5-build-classic'
+import Modal from 'react-modal'
 
 const CreateBlogPost = (props) => {
+  const [isOpen, setIsOpen] = useState(false)
+  const toggleModal = () => {
+    setIsOpen(!isOpen)
+  }
+
   const { register, handleSubmit } = useForm()
   let content = ''
+
   const onSubmit = (data) => {
     const newData = { ...data, content }
     axios({
@@ -26,7 +34,7 @@ const CreateBlogPost = (props) => {
       .catch((err) => {
         console.error(`${err.name}: ${err.message}`)
         if (err.message === 'Request failed with status code 400') {
-          alert('Título ya reservado, por favor escoge uno nuevo')
+          toggleModal()
         } else {
           console.error(`${err.name} : ${err.message}`)
         }
@@ -35,6 +43,16 @@ const CreateBlogPost = (props) => {
   return (
     <section className='createblogpost'>
       <section className='createblogpost__container'>
+        <Modal
+          isOpen={isOpen}
+          onRequestClose={toggleModal}
+          contentLabel='Título ya reservado, por favor escoge uno nuevo'
+          className='createblogpost__container--modal'
+          overlayClassName='createblogpost__container--overlay'
+        >
+          <p>Título ya reservado, por favor escoge uno nuevo y modifica el campo contenido.</p>
+          <button onClick={toggleModal}>Cerrar Ventana</button>
+        </Modal>
         <form
           className='signup__container--form'
           onSubmit={handleSubmit(onSubmit)}
