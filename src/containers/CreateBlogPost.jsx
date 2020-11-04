@@ -50,7 +50,7 @@ const CreateBlogPost = (props) => {
           className='createblogpost__container--modal'
           overlayClassName='createblogpost__container--overlay'
         >
-          <p>Título ya reservado, por favor escoge uno nuevo.</p>
+          <p>Título ya reservado, por favor escoge uno nuevo y modifica el campo contenido.</p>
           <button onClick={toggleModal}>Cerrar Ventana</button>
         </Modal>
         <form
