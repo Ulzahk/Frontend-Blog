@@ -6,7 +6,7 @@
   "scripts": {
     "vercel-build": "npm run build",
     "build": "webpack --mode production",
-    "start": "webpack-dev-server --open --mode development",
+    "dev": "webpack-dev-server --open --mode development",
     "lint": "standard"
   },
   "repository": {
@@ -27,7 +27,7 @@
   "dependencies": {
     "@ckeditor/ckeditor5-build-classic": "23.1.0",
     "@ckeditor/ckeditor5-react": "3.0.0",
-    "axios": "0.21.1",
+    "axios": "^0.21.1",
     "dompurify": "2.2.2",
     "react": "17.0.1",
     "react-dom": "17.0.1",
@@ -52,7 +52,7 @@
     "standard": "15.0.1",
     "webpack": "4.44.1",
     "webpack-cli": "3.3.12",
-    "webpack-dev-server": "3.7.2"
+    "webpack-dev-server": "^3.11.2"
   },
   "eslintConfig": {
     "extends": [
