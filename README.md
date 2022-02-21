@@ -6,9 +6,9 @@
 
 <div align="center">
 
-  [![React](https://img.shields.io/badge/-React.js 17.0-282C34?style=flat&logo=React)](https://reactjs.org)
-  [![Sass](https://img.shields.io/badge/-Sass 4.14-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com)
-  [![Webpack](https://img.shields.io/badge/-Webpack 4.44-282C34?style=flat&logo=webpack)](https://webpack.js.org)
+  [![React](https://img.shields.io/badge/-React.js-282C34?style=flat&logo=React)](https://reactjs.org)
+  [![Sass](https://img.shields.io/badge/-Sass-F2F2F2?style=flat&logo=Sass)](https://sass-lang.com)
+  [![Webpack](https://img.shields.io/badge/-Webpack-282C34?style=flat&logo=webpack)](https://webpack.js.org)
 </div>
 <p align="center">Blog Web App is a basic system that allows you to create, read, modify and delete blog posts</p>
 
@@ -18,59 +18,59 @@
 > Demo API: https://backend-blog-ulzahk.vercel.app/
 </div>
 
+## 📔 Commits Guidelines
 
+- Using as reference [Conventional Commits](https://www.conventionalcommits.org/en/v1.0.0/)
+- Every commit should have a sign with the contributor's GPG key
+- The basic structure should be `[{ type in uppercase }] { description using imperative writing style or writing as a if it were a command }"`, for example:
+  - `[UPDATE] header component with a new one more darker`
+- For the types we have:
+  - `[UPDATE]` : when we need to add a new feature, tests or change a property.
+  - `[FIX]` : to implement the code necessary to fix a problem.
+  - `[DELETE]` : when a file is going to be deleted and not replaced.
+  - `[BREAKING CHANGE] or !` : to implement changes that are going to affect the integration with other services, for example:
+    - `[UPDATE]! API version to v2 for new endpoints`
 
+## 🤝 How to Contribute
 
-## Table of Contents
-- [Steps to Collaborate](#steps-to-collaborate)
-- [Views](#views)
-  - [Blog Posts List](#blog-posts-list)
-  - [Blog Posts Details](#blog-posts-details)
-  - [Create Blog Post](#create-blog-post)
-  - [Modify Blog Post](#modify-blog-post)
-- [More Information](#more-information)
-- [License](#license)
+1. Create a new branch using as base the `dev` branch.
+2. Do the necessary improvements and make a commit: `git commit -S -am "{commit message}"` or use `git add .` and then `git commit -S -m "{commit message}"`.
+3. Upload changes to the repository: `git push origin <branch name>`.
+4. Create a pull request to the `dev` branch.
+5. Wait for the code review and the merge.
+6. Now your changes are in the dev environment.
+7. After a review your changes are going to be merged to the `master` branch.
+8. For certain contributors there are exeptions to these steps.
 
-## Steps to Collaborate
-
-1. Fork the project: by clicking the fork button (located at the top right corner)
-2. Clone the project: `git clone https://github.com/<your username>/Frontend-Blog`
-3. Install dependencies: `npm install` or use `npm i`
-4. Create an .env file and use the .env.example file as a guide to fill in the environment variables.
-5. Run the project: `npm run start`
-6. Do the necessary improvements and make a commit: `git commit -am "<commit message>"` or use `git add .` and then `git commit -m "<commit message>"`
-7. Upload changes to the repository created with the fork: `git push origin <branch name>`
-8. Create a pull request to the original project.
-
-## Views
+## 📲 Views
 
 ### Blog Posts List
+
 <div align="center">
     <img alt="Blog posts list view" src="./src/assets/static/Blog-posts-list.png">
 </div>
 
 ### Blog Posts Details
+
 <div align="center">
     <img alt="Blog post details view" src="./src/assets/static/Blog-post-details.png">
 </div>
 
 ### Create Blog Post
+
 <div align="center">
     <img alt="Create blog post view" src="./src/assets/static/Create-blog-post.png">
 </div>
 
 ### Modify Blog Post
+
 <div align="center">
     <img alt="Create blog post view" src="./src/assets/static/Modify-blog-post.png">
 </div>
 
-## More Information
+## 📚 More Information
 
 | Name                      | Link                                                                          |
 | :-------------------------| :---------------------------------------------------------------------------- |
 | Backend  Repository       | https://github.com/Ulzahk/Backend-Blog                                        |
 | Blog API                  | https://backend-blog-ulzahk.vercel.app/                                       |
-
-## License
-
-[MIT License](https://github.com/Ulzahk/Frontend-Blog/blob/main/LICENSE)
